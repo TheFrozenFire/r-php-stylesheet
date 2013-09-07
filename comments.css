@@ -1,0 +1,69 @@
+/* alternating nested comment boxes */
+.comment {
+    -moz-border-radius: 7px !important;
+    -webkit-border-radius: 7px !important;
+    margin-left: 10px !important;
+    margin-right: 310px !important;
+    margin-top: 0px !important;
+    margin-bottom: 8px !important;
+    background-color: #ffffff !important;
+    border: 1px #eeeeee solid !important;
+    padding-left: 5px !important;
+    padding-top: 5px !important;
+    padding-right: 8px !important;
+    padding-bottom: 0px !important
+    }
+.comment .comment {
+    margin-right: 0px !important;
+    background-color: #fafafa !important
+    }
+.comment .comment .comment, .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #ffffff !important
+    }
+.comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #fafafa !important
+    }
+    
+/* add a tab */
+.titlebox .usertext-body .md ul li a {
+    background-color: #EFF7FF;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px
+    }
+.pagename {
+    font-size: 12pt
+    }
+.titlebox form {
+    position: static
+    }
+.titlebox .usertext-body .md ul {
+    list-style: none;
+    position: absolute;
+    top: 52px;
+    right:305px; /* changed from left:740px */
+    z-index: 200;
+    margin: 0;
+    padding: 0;
+    display: table
+    }
+.titlebox .usertext-body .md ul li {
+    display: inline;
+    margin: 0 3px
+    }
+.titlebox .usertext-body .md ul li a {
+    background: #787878;
+    color: #fff;
+    padding: 4px 4px 4px 4px;
+     font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    font-weight: bold;
+
+    }
+
+
+.titlebox .usertext-body .md ul li a:hover {
+    background: #525252
+    }

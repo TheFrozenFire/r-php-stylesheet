@@ -1,0 +1,6 @@
+#link-desc:after, #text-desc:after {
+    content: 'Please direct all help-related posts to /r/phphelp, or join ##php on Freenode IRC.';
+    display: block;
+    padding-top: 1em;
+    color: #C33;
+}

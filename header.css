@@ -1,0 +1,57 @@
+#header {
+    background-color: #99C;
+	height:72px;
+border: 0;
+    border-bottom: 3px solid #669;
+    position: relative;
+	}
+
+#header-img-a {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    }
+#header-img {
+    display: block;
+    height: 45px;
+    width: auto;
+}
+
+.redditname a {
+    background: url(%%php-med-trans%%);
+    display: block;
+    width: 72px;
+    height: 40px;
+   float:left;
+    text-indent: -9999px;
+    margin: 5px 20px 0 0
+    }
+
+
+#header-bottom-left .tabmenu {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 255px
+    }
+#header-bottom-left .tabmenu li {
+    display: block;
+    float: left
+    }
+
+#header-bottom-left .tabmenu li a {
+    background: #787878;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    }
+#header-bottom-left .tabmenu li a:hover {
+    background: #525252
+    }
+#header-bottom-left .tabmenu li.selected a {
+    background: #669;
+    border: 0;
+    color: #fff
+    }

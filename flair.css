@@ -1,0 +1,9 @@
+.flair-php-contributor:before {
+    content: " ";
+    display: inline-block;
+    background-image: url(%%php-logo%%);
+    width: 27px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
