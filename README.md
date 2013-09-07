@@ -1,0 +1,1 @@
+This gist contains the CSS styling for the /r/PHP subreddit
