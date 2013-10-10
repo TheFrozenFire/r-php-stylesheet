@@ -5,9 +5,26 @@
 @colour-medium-purple: #7F7FB2;
 @colour-dark-purple: #3F438D;
 
+@colour-odd-comment: #fff;
+@colour-even-comment: #fafafa;
+
+@colour-titlebox-link-background: #787878;
+@colour-titlebox-hover-background: #525252;
+
 @colour-nav-text: #444444;
+
+/* Not the best place to define this: */
+@font-size: 12px;
 
 .tweed-background() {
     background-image: url(%%tweed-bg%%);
     background-repeat: repeat;
+}
+
+.rounded-corners (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
 }
